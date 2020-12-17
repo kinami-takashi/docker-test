@@ -15,5 +15,6 @@ RUN apt-get install -y\
 
 RUN apt-get install -y \
     python-pip \
+    python3-pip
 #CMD $docker run の際にデフォルトで実行されるコマンド
 CMD ["/bin/bash"]
