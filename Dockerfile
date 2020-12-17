@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     sudo \
     wget \
     vim
-
+RUN apt-get install -y \
+    python
 #CMD $docker run の際にデフォルトで実行されるコマンド
 CMD ["/bin/bash"]
