@@ -1,6 +1,6 @@
 #FROM ベースとなるimageファイル（主にubuntuOS関連）
 #docker hubの「nvedia/cuda」リポジトリを検索。Tagsから使用したいCudaのバージョンのimageを持ってくる
-FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
+FROM ubuntu:16.04
 
 #RUN コマンドを実行
 #必要なパッケージをインストール
